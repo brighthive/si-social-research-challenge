@@ -51,4 +51,4 @@ In your private repository add engineering@brighthive.io as a contributing membe
 Please follow up with a quick email to engineering@brighthive.io and indicate that you are finished with assignment.
 
 ## Next Steps:
-BrightHive Strategic Initiatives, Product and Engineering will review your submission and contact you if we wish to continue wish next steps.
+BrightHive Strategic Initiatives, Product and Engineering will review your submission and contact you if we wish to continue with next steps.
