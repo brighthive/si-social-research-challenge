@@ -1,4 +1,4 @@
-# A social research data science challenge.
+# A social research data science challenge
 
 # Background
 
