@@ -28,7 +28,7 @@ The product and engineering team at BrightHive uses Python, along with Git and D
 * A Python virtual environment to work in
 
 ## Time Expectations:
-We expect this assignment to typically take 4 hours although some may finish sooner and others may finish later.
+We expect this assignment to typically take 4 hours although some may finish sooner and others may finish later. You will be asked to downloaded several text files, incuding one file that is about 100 megabytes in size.
 
 ## Assignment Outputs:
 * Several qualitative, descriptive analyses
