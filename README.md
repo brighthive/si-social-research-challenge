@@ -31,9 +31,9 @@ The product and engineering team at BrightHive uses Python, along with Git and D
 We expect this assignment to typically take 4 hours although some may finish sooner and others may finish later.
 
 ## Assignment Outputs:
-Several qualitative, descriptive analyses
-Several quantitative results written to a file
-Instructions for how to reproduce your results
+* Several qualitative, descriptive analyses
+* Several quantitative results written to a file
+* Instructions for how to reproduce your results
 
 ## What to Expect: 
 The assignment is a private GitHub repository that you will be invited into. 
