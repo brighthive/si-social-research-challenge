@@ -20,19 +20,20 @@ The sections that follow cover tool and time requirements as well as how to requ
 ## Tool Requirements: 
 The product and engineering team at BrightHive uses Python, along with Git and Docker. However, this assignment will only focus on Python and Git. Please make sure that you have the following set up and/or installed:
 
-Your own Github.com account
+* Your own Github.com account
 * A programming IDE of your choice
 * Python 3.x installed
 * Git 2.8.1+ installed
-* Python 3 libraries for descriptive and statistical analysis, including regression
+* Access to Python 3 libraries for descriptive and statistical analysis, including regression
+* A Python virtual environment to work in
 
 ## Time Expectations:
-We expect this assignment to typically take 4 hours although some may finish sooner and others may finish later.
+We expect this assignment to typically take 4 hours although some may finish sooner and others may finish later. You will be asked to downloaded several text files, incuding one file that is about 100 megabytes in size.
 
 ## Assignment Outputs:
-Several qualitative, descriptive analyses
-Several quantitative results written to a file
-Instructions for how to reproduce your results
+* Several qualitative, descriptive analyses
+* Several quantitative results written to a file
+* Instructions for how to reproduce your results
 
 ## What to Expect: 
 The assignment is a private GitHub repository that you will be invited into. 
