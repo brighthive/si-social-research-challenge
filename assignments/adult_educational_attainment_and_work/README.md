@@ -37,14 +37,15 @@ ACME likes your justifications for using both `UNDERMP` and your derived measure
   * The file should be of `.csv` type (comma seperated)
 
 ## Task 3
-The start a general policy discussion with ACME, data collection and impact, you've been asked to start looking at education and work (or labor) outcome measures. SI has a big meeting next week with ACME and would like a first look at labor outcomes by eductional level. This will be used to drive a 1 pager to be circulated among senior ACME staff and drive data collection efforts down the road for Product & Engineering.
+The start a general policy discussion with ACME, data collection and impact, you've been asked to start looking at education and work (or labor) outcome measures. SI has a big meeting next week with ACME and would like a first look at labor outcomes by eductional level. This will be used to drive a 1 pager to be circulated among senior ACME staff and drive data collection efforts down the road for Product & Engineering. Things to consider are overall trends, variances, groups, subgroups, significance, etc.
 
 * Add _a new function_ in `./src/models/model_summary.py` that analyzes the dataset you created in the previous step. Your analysis should examine any trends among education levels, work outcome measures. Are there any subgroups to consider? If you wish to create any visualizations, you may modify `./src/visualization/visualize.py`. Ensure that you update `requirements.py` with any required libaries.
-* Any numerical results should be written to `./data/processed` and named `assignment_A_task_3`
-* Any visual results should be written to `./reports/figures` and named `assignment_A_task_3`
+* Any numerical results should be written to `./data/processed` and prefixed with `assignment_A_task_3`
+* Any visual results should be written to `./reports/figures` and prefixed ith  `assignment_A_task_3`
 
 ## Task 4
 SI has asked you to lead the techincal dicussion of the meeting next week. To help prepare the team, Natalie Evan Harris has asked you to write up a brief, but techincal, 1 pager.
 
-* The following asks for written justifications, please save your justifications in the file format of your choice in the `reports` folder and under a file named `assignment_A_task_4` with the appropriate file extension.
+* The following asks for written justifications, please save your justifications in the file format of your choice in the `reports` folder and under a file prefixed with `assignment_A_task_4` and ending with the appropriate file extension.
 * Using any outputs from Task 3 above, create a brief one pager explaining implications, policy, cost, statistical or otherwise of how education impacts labor outcomes.
+* If you could only measure a subset of variables in the file, which variables would you measure and why?
