@@ -1,6 +1,9 @@
 # Cookie Cutter DS
 /data/
 
+# references
+*.pdf
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
