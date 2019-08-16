@@ -6,14 +6,13 @@ BrightHive is an impact-driven data technology start-up company using data trust
 
 One of the most important responsibilities of this role is the application of research and statistical analysis to develop recommendations for program or policy changes. Particular focus areas for BrightHive are K-12 education and national and state workforce.
 
-
 # Data Science Take Home Challenge
 ## Overview:
-To help independently assess your qualifications and skill we have designed two self contained mini data science exercises, labeled “Adult Educational Attainment and Work” and “Grade 9-12 Education and Work Outcomes.” The code you write for one exercise will be immediately applicable to the other exercise.
+To help independently assess your qualifications and skill we have designed a self contained mini data science exercises, labeled “Adult Educational Attainment and Work.” The code you write for some tasks may be applicable to other additional tasks within the exercise.
 
-Each exercise will involve a series of progressive steps, including data analysis, regression and explanation of results along with any policy recommendations as appropriate. The exercises contain an amount of functional overlap that encourages code reuse and architecture design across each exercise. The datasets are similar to what you might see in Strategic Initiatives.
+The exercise will involve a series of progressive steps, including data analysis, regression and explanation of results along with any policy recommendations as appropriate. The datasets are similar to what you might see in Strategic Initiatives.
 
-The total start to finish time taken for this entire assignment, including both mini data science exercises, should not exceed four (4) hours but if you find yourself taking longer feel free to submit (using the instructions provided below) what you currently have and don’t stress since many different aspects of your application are holistically evaluated.
+The total start to finish time taken for this entire assignment, including the tasks, should not exceed four (4) hours but if you find yourself taking longer feel free to submit (using the instructions provided below) what you currently have and don’t stress since many different aspects of your application are holistically evaluated.
 
 The sections that follow cover tool and time requirements as well as how to request and submit this take home assignment. We thank you for your time taken in starting this assignment and hope that you find it interesting.
 
@@ -25,7 +24,7 @@ The product and engineering team at BrightHive uses Python, along with Git and D
 * Python 3.x installed
 * Git 2.8.1+ installed
 * Access to Python 3 libraries for descriptive and statistical analysis, including regression
-* A Python virtual environment to work in
+* A Python virtual environment to work in (e.g. `Pip`)
 * An Adobe acrobat reader
 
 ## Time, File Size Expectations:
