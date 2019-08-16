@@ -47,8 +47,11 @@ Prior to the actual day that you wish to work on the assignment please send your
 On or before the date and time expect to receive a BrightHive Github invite to the assignment repository.
 If you receive the BrightHive Github invite before your date and time please do not accept it until the actual date and time you requested. 
 
-## How to Submit the Assignment: 
-In your private repository add engineering@brighthive.io as a contributing member with at least read access.
+## How to Start an Assignment:
+There are two sub-directories in the `./assignments` folder, one labeled `adult_educational_attainment_and_work` and the other labeled `grade_9_12_education_and_work_outcomes`. Each folder has its own `README.md` that provides instructions on how to start that assignment and what tasks to do.
+
+## How to Submit the Assignments: 
+When you are finished wtih both assignments to your satisfaction then in your private repository add engineering@brighthive.io as a contributing member with at least read access.
 Please follow up with a quick email to engineering@brighthive.io and indicate that you are finished with assignment.
 
 ## Next Steps:
