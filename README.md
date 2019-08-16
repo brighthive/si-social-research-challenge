@@ -47,6 +47,9 @@ Prior to the actual day that you wish to work on the assignment please send your
 On or before the date and time expect to receive a BrightHive Github invite to the assignment repository.
 If you receive the BrightHive Github invite before your date and time please do not accept it until the actual date and time you requested. If something unexpected comes up and you are unable to start the data challenge please email engineering@brighthive.io.
 
+## How to Start the Assignment:
+The assignment is detailed in `./assignement/README.md` and may be viewed in your web browswer once you receive an invite. It contains 6 tasks related to a fictional company, called ACME Education, in collaboration with Strategic Initiatives.
+
 ## How to Submit the Assignment:
 In your private repository add engineering@brighthive.io as a contributing member with at least read access.
 Please follow up with a quick email to engineering@brighthive.io and indicate that you are finished with assignment.

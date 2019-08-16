@@ -53,4 +53,7 @@ After the resounding success of your one page SI and ACME have convinced the sta
 
 * The following asks for written justifications, please save your justifications in the file format of your choice in the `reports` folder and under a file prefixed with `assignment_A_task_5` and ending with the appropriate file extension.
 * Given that you created your own measure in Task 1, item 3, what modifications to `make_dataset_and_references.py`, `model_summary.py` and/or to the project structure to easily allow new measures to be created or deleted and run year after year.
-* What internal and external stakeholders would you talk with to design this change? 
+* What internal and external stakeholders would you talk with to design this change?
+
+## Conclusion
+Congratulations on finishing this data challenge! We will clone your repository, run each of the python scripts, to reproduce your work, while reviewing your written responses and code. Best of luck and thank you for your time taken in this data challenge.
