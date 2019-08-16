@@ -30,9 +30,15 @@ def download_from_s3_and_save(s3_obj=s3,
                      str(file_name),
                      str(save_to_path/file_name))
 
-def download_external_data_and_save(data=None):
+def download_reference_and_save(references=None):
+    external_config = get_external_data_config(key="references")
+    for reference in references:
+        download_from_s3_and_save(file_name=external_config[reference],
+                                  file_path="./references/")    
+
+def download_external_data_and_save(dataset=None):
     external_config = get_external_data_config()
-    download_from_s3_and_save(file_name=external_config[data])
+    download_from_s3_and_save(file_name=external_config[dataset])
 
 download_external_data_and_save("adult_training_and_education")
-print("we're done")
+download_reference_and_save(references=["ates_variables", "ates_codebook"])

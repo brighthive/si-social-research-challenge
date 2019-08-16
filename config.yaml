@@ -1,0 +1,9 @@
+s3:
+  bucket: si-ds-challenge
+external_data:
+  adult_training_and_education: ates_pu.csv
+processed_data:
+  ates: ''
+references:
+  ates_variables: 2016_ATES_Derived_Variables_Note.pdf
+  ates_codebook: cbook_ates_pu.pdf
