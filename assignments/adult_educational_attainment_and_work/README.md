@@ -23,13 +23,14 @@ Note: Throughout this excercise we assume that the data and any findings are sti
 
 ACME Education created a national survey, derived from the National Center for Education Statistics, to measure work outcomes and education among adults. However, a recent report, found in `./references/2016_ATES_Derived_Variables.pdf` notes some issues in `./data/external/ates_pu.csv`, including that several measure of work underutilization, underemployment are missing. To better understand both the new measures and to dig deeper into what questions ACME education, you've been asked to do the following:
 
-* Review both `./references/2016_ATES_Derived_Variables.pdf` and `./references/cbook_ates_pu.pdf` and write up a brief (1 paragraph) summary of the work outcome variables found in `./data/external/ates_pu.csv` and any derived (new) work outcome measures that you think could inform a policy discussion around work, education for adults in a metropolition area of your choice (e.g. Chicago).
-* Given that SI generally knows that ACME wants to investigate work outcomes by education, select an additional derived outcome measures beyond `UNDEREMP` and write a brief paragraph
+* The following asks for written justifications, please save your justifications in the file format of your choice in the `reports` folder and under a file named `assignment_A_task_1` with the appropriate file extension.
+* Review both `./references/2016_ATES_Derived_Variables.pdf` and `./references/cbook_ates_pu.pdf` and write up a brief (1-2 paragraph) summary of the work outcome variables found in `./data/external/ates_pu.csv` and any derived (new) work outcome measures that you think could inform a policy discussion around work, education for adults in a metropolition area of your choice (e.g. Chicago).
+* Given that SI generally knows that ACME wants to investigate work outcomes by education, select an additional derived outcome measures beyond `UNDEREMP` and write a brief paragraph justifying your choice and contrasting it against other choices. Consider topics like statistical validity, understandability, replicabilty, cost to measure, etc.
 
 ## Task 2:
-ACME likes your justifications for using investigating both `UNDERMP` and your derived measure. In this taks you will be asked to modify the data set to include your derived measure in a repeatable fashion. You will also make some changes to `make_dataset_and_reference.py`
+ACME likes your justifications for using both `UNDERMP` and your derived measure! In this task you will be asked to modify the data set to include your derived measure withiin a repeatable process. You will be making changes to `make_dataset_and_reference.py`
 
-* Modify the download methods in `make_dataset_and_reference.py` to accept an True/False argument on whether to `overwrite` any exsting data. If `overwrite` is set to False and the data exists then the function shall not overwrite the data. This will allow anyone to run that file without havign to redownload existing data.
-* With `overwrite` set to False, add a new function that processes the `ates_pu.csv` file and adds your new derived measure. The resulting file should be written to `./data/processed`. 
+* Modify the download methods in `make_dataset_and_reference.py` to accept an True/False argument on whether to `overwrite` any exsting data. If `overwrite` is set to False and the data exists then the function shall not overwrite the data. This will allow anyone to run that file without having to redownload existing data.
+* With `overwrite` set to False, add _a new function_ that processes the `ates_pu.csv` file and adds your new derived measure. The resulting file should be written to `./data/processed`. 
   * The name of the file should be set in `config.yaml`, `processed_data` under the key `ates`.
-  * The name set in `config.yaml` should be reflected in `./data/processed`
+  * The name set in `config.yaml` should be reflected as a file in `./data/processed`
