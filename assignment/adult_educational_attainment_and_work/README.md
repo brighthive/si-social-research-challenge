@@ -7,7 +7,7 @@ This is a take home data science challenge and this challenge focuses on Adult E
 ## Introduction
 Welcome to your first day in Strategic Initiatives (SI)! The SI team has been collaborating with a national partner, ACME Education, that focuses on workforce training and readiness in the 21st century.
 
-After a quick round of negotiation, our Product & Engineering got the go ahead to store national survey data regarding education in adults and their work outcomes, including whether they work full-time, part-time or if they are underemployed. This data is stored in S3 for now but will be moved to a _data trust_ after your analysis.
+After a quick round of negotiation, our Product & Engineering got the go ahead to store national survey data regarding education in adults and their work outcomes, including whether they work full-time, part-time or if they are underemployed. This data is stored in Amazon Simple Storage Service (S3) for now but will be moved to a _data trust_ after your analysis.
 
 To increase velocity and collaboration between SI and Engineering, the friendly engineering folks have created this entire repository for you to work from. By sticking to the project layout and placing some of your code in certain files you enable engineering to quickly productize your work while reducing time to insight for our partner, ACME Education.
 
@@ -28,7 +28,7 @@ ACME Education created a national survey, derived from the National Center for E
 ## Task 2: Modify `make_data_and_reference.py`, Update Config
 ACME likes your justifications for using both `UNDERMP` and your derived measure! In this task you will be asked to modify the data set to include your derived measure within a repeatable process. You will be making changes to `make_dataset_and_reference.py` as well as other files.
 
-* Modify the download methods in `make_dataset_and_reference.py` to accept an True/False argument on whether to `overwrite` any existing data. If `overwrite` is set to False and the data exists then the function shall not overwrite the data. This will allow anyone to run that file without having to redownload existing data.
+* Modify the download methods in `make_dataset_and_reference.py` to accept a True/False argument on whether to `overwrite` any existing data. If `overwrite` is set to False and the data exists then the function shall not overwrite the data. This will allow anyone to run that file without having to redownload existing data.
 * With `overwrite` set to False in the various download functions, add _a new function_ that processes the `ates_pu.csv` file and adds your new derived measure. The resulting file should be written to `./data/processed`.
  * The name of the file should be set in `config.yaml`, `processed_data` under the key `ates`.
  * The name set in `config.yaml` should be reflected as a file in `./data/processed`
@@ -39,7 +39,7 @@ The start of a general policy discussion with ACME Education, data collection an
 
 Note that Task 4 will involve writing a brief report on Task 3 outputs.
 
-If the data set is too large to analyze within a reasonable amount of time consider and implement any kind of data sampling as needed. If you do sample the data be sure to consider how sampling affects your analysis and any methdological justifcations. 
+If the data set is too large to analyze within a reasonable amount of time consider and implement any kind of data sampling as needed. If you do sample the data be sure to consider how sampling affects your analysis and any methodological justifications. 
 
 * Add _a new function_ in `./src/models/model_summary.py` that analyzes the dataset you created in the previous step. Your analysis should examine any trends among education levels, work outcome measures. Are there any subgroups to consider? If you wish to create any visualizations, you may modify `./src/visualization/visualize.py`. Ensure that you update `requirements.py` with any required libraries.
 * Any numerical results should be written to `./data/processed` and prefixed with `assignment_A_task_3`. Numerical results should be reproducible by running code created by you in `./src/models/model_summary.py` 
@@ -53,7 +53,7 @@ SI has asked you to lead the technical discussion of the meeting next week. To h
 * If you could only measure a subset of variables in the file, which variables would you measure and why?
 
 ## Task 5
-After the resounding success of your one pager, SI and ACME have convinced the state government to launch a new data trust, collecting similar data, with ACME as the state surveyer and SI as the PI. However, the state government wants to be able to add an experimental section of new measures. The questions in the experiemental section can change from year to year and will be used to help inform future topic areas.
+After the resounding success of your one pager, SI and ACME have convinced the state government to launch a new _data trust_, collecting similar data, with ACME as the state surveyer and SI as the PI. However, the state government wants to be able to add an experimental section of new measures. The questions in the experiemental section can change from year to year and will be used to help inform future topic areas.
 
 * The following asks for written justifications, please save your justifications in the file format of your choice in the `reports` folder and under a file prefixed with `assignment_A_task_5` and ending with the appropriate file extension.
 * Given that you created your own measure in Task 1, item 3, what modifications to `make_dataset_and_references.py`, `model_summary.py` and/or to the project structure would you make to easily allow new measures to be created (or deleted) and run year after year. What change management processes would you consider?
