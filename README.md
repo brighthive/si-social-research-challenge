@@ -24,11 +24,11 @@ The product and engineering team at BrightHive uses Python, along with Git and D
 * Python 3.x installed
 * Git 2.8.1+ installed
 * Access to Python 3 libraries for descriptive and statistical analysis, including regression
-* A Python virtual environment to work in (e.g. `Pip`)
+* A Python virtual environment to work in (e.g. `pip`)
 * An Adobe acrobat reader
 
 ## Time, File Size Expectations:
-We expect this assignment to typically take 4 hours although some may finish sooner and others may finish later. You will be asked to downloaded several text files, including one file that is about 100 megabytes in size.
+We expect this assignment to typically take 4 hours although some may finish sooner and others may finish later. You will be asked to downloaded several text files, including one data set that is about 100 megabytes in size.
 
 ## Assignment Outputs:
 * Several qualitative, descriptive analyses
@@ -36,23 +36,21 @@ We expect this assignment to typically take 4 hours although some may finish soo
 * Instructions for how to reproduce your results
 
 ## What to Expect:
-The assignment is a private GitHub repository that you will be invited into.
-Your work will be done on your own fork of the private repository.
+The assignment is a public GitHub repository that you will clone.
+Your work will be done on your own private or public fork of the public repository.
 The assignment consists of a series of analysis tasks across two data sets.
-When you wish BrightHive to review your fork send a contributor invite to engineer@brighthive.io so that we may look at your work.
+When you wish BrightHive to review your fork send a contributor invite to kwame@brighthive.io. This makes a timestamp of when you are finished.
 Be prepared to discuss your approach in a possible follow up call.
 
 ## How to Request the Assignment:
-Prior to the actual day that you wish to work on the assignment please send your GitHub username to engineering@brighthive.io and indicate the date and time you wish to work on the assignment.
-On or before the date and time expect to receive a BrightHive Github invite to the assignment repository.
-If you receive the BrightHive Github invite before your date and time please do not accept it until the actual date and time you requested. If something unexpected comes up and you are unable to start the data challenge please email engineering@brighthive.io.
+We will send you an email containing a link to the github repository. You are free to pick any day or time that works for you but pleas try to start and complete the 4 hour assignment within a week of receiving the link. If something unexpected comes up and you are unable to start the data challenge please email kwame@brighthive.io.
 
 ## How to Start the Assignment:
 The assignment is detailed in `./assignement/README.md` and may be viewed in your web browswer once you receive an invite. It contains 6 tasks related to a fictional company, called ACME Education, in collaboration with Strategic Initiatives.
 
 ## How to Submit the Assignment:
-In your private repository add engineering@brighthive.io as a contributing member with at least read access.
-Please follow up with a quick email to engineering@brighthive.io and indicate that you are finished with assignment.
+In your repository add kwame@brighthive.io as a contributing member with at least read access. This lets us know that you are finished with the assignment.
+Please follow up with a quick email to kwame@brighthive.io and indicate that you are finished with assignment.
 
 ## Next Steps:
 BrightHive Strategic Initiatives, Product and Engineering will review your submission and contact you if we wish to continue with next steps.

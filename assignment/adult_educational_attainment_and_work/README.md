@@ -35,7 +35,9 @@ ACME likes your justifications for using both `UNDERMP` and your derived measure
  * The file should be of `.csv` type (comma separated)
 
 ## Task 3
-The start of a general policy discussion with ACME Education, data collection and impact, you've been asked to start looking at education and work (or labor) outcome measures. SI has a big meeting next week with ACME and would like a first look at labor outcomes by educational level. This will be used to drive a 1 pager to be circulated among senior ACME staff and drive data collection efforts down the road for Product & Engineering. Things to consider are overall trends, variances, groups, subgroups, significance, etc. Note that Task 4 will involve writing a brief report on Task 3 outputs.
+The start of a general policy discussion with ACME Education, data collection and impact, you've been asked to start looking at education and work (or labor) outcome measures. SI has a big meeting next week with ACME and would like a first look at labor outcomes by educational level. This will be used to drive a 1 pager to be circulated among senior ACME staff and drive data collection efforts down the road for Product & Engineering. Things to consider are overall trends, variances, groups, subgroups, significance, etc.
+
+Note that Task 4 will involve writing a brief report on Task 3 outputs.
 
 If the data set is too large to analyze within a reasonable amount of time consider and implement any kind of data sampling as needed. If you do sample the data be sure to consider how sampling affects your analysis and any methdological justifcations. 
 
@@ -51,7 +53,7 @@ SI has asked you to lead the technical discussion of the meeting next week. To h
 * If you could only measure a subset of variables in the file, which variables would you measure and why?
 
 ## Task 5
-After the resounding success of your one pager, SI and ACME have convinced the state government to launch a new data trust, collecting similar data, with ACME as the state surveyer and SI as the PI. However the state government wants to be able to add an experimental section of new measures. The questions in the experiemental section can change from year to year and will be used to help inform future topic areas.
+After the resounding success of your one pager, SI and ACME have convinced the state government to launch a new data trust, collecting similar data, with ACME as the state surveyer and SI as the PI. However, the state government wants to be able to add an experimental section of new measures. The questions in the experiemental section can change from year to year and will be used to help inform future topic areas.
 
 * The following asks for written justifications, please save your justifications in the file format of your choice in the `reports` folder and under a file prefixed with `assignment_A_task_5` and ending with the appropriate file extension.
 * Given that you created your own measure in Task 1, item 3, what modifications to `make_dataset_and_references.py`, `model_summary.py` and/or to the project structure would you make to easily allow new measures to be created (or deleted) and run year after year. What change management processes would you consider?
