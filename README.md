@@ -8,7 +8,7 @@ One of the most important responsibilities of this role is the application of re
 
 # Data Science Take Home Challenge
 ## Overview:
-To help independently assess your qualifications and skill we have designed a self contained mini data science exercises, labeled “Adult Educational Attainment and Work.” The code you write for some tasks may be applicable to other additional tasks within the exercise.
+To help independently assess your qualifications and skill we have designed a self contained mini data science exercise, labeled “Adult Educational Attainment and Work.”
 
 The exercise will involve a series of progressive steps, including data analysis, regression and explanation of results along with any policy recommendations as appropriate. The datasets are similar to what you might see in Strategic Initiatives.
 
@@ -38,15 +38,15 @@ We expect this assignment to typically take 4 hours although some may finish soo
 ## What to Expect:
 The assignment is a public GitHub repository that you will clone.
 Your work will be done on your own private or public fork of the public repository.
-The assignment consists of a series of analysis tasks across two data sets.
+The assignment consists of a series of analysis tasks across a single data set.
 When you wish BrightHive to review your fork send a contributor invite to kwame@brighthive.io. This makes a timestamp of when you are finished.
 Be prepared to discuss your approach in a possible follow up call.
 
 ## How to Request the Assignment:
-We will send you an email containing a link to the github repository. You are free to pick any day or time that works for you but pleas try to start and complete the 4 hour assignment within a week of receiving the link. If something unexpected comes up and you are unable to start the data challenge please email kwame@brighthive.io.
+We will send you an email containing a link to the github repository. You are free to pick any day or time that works for you but please try to start and complete the 4 hour assignment within a week of receiving the link. If something unexpected comes up and you are unable to start the data challenge please email kwame@brighthive.io.
 
 ## How to Start the Assignment:
-The assignment is detailed in `./assignement/README.md` and may be viewed in your web browswer once you receive an invite. It contains 6 tasks related to a fictional company, called ACME Education, in collaboration with Strategic Initiatives.
+The assignment is detailed in `./assignment/README.md` and may be viewed in your web browswer. It contains 6 tasks related to a fictional company, called ACME Education, in collaboration with Strategic Initiatives.
 
 ## How to Submit the Assignment:
 In your repository add kwame@brighthive.io as a contributing member with at least read access. This lets us know that you are finished with the assignment.
