@@ -49,7 +49,7 @@ If the data set is too large to analyze within a reasonable amount of time consi
 SI has asked you to lead the technical discussion of the meeting next week. To help prepare the team, Natalie Evan Harris has asked you to write up a brief, but technical, 1 pager.
 
 * The following asks for written justifications, please save your justifications in the file format of your choice in the `reports` folder and under a file prefixed with `assignment_A_task_4` and ending with the appropriate file extension.
-* Using any outputs from Task 3 above, create a brief one pager explaining implications, policy, cost, statistical or otherwise of how education impacts labor outcomes. If sampling was used then justify your use and any impacts it may have on your conclusions.
+* Using any outputs from Task 3 above, create a brief one pager explaining how education impacts labor outcomes. Consider policy, cost, statistical any other relevant implications. If sampling was used then justify your use and any impacts it may have on your conclusions.
 * If you could only measure a subset of variables in the file, which variables would you measure and why?
 
 ## Task 5
