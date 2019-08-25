@@ -24,8 +24,6 @@ def download_from_s3_and_save(config=config,
         exist_ok=True
     )
 
-    #https://si-ds-challenge.s3.us-east-2.amazonaws.com/2016_ATES_Derived_Variables_Note.pdf
-
     s3 = config['s3']
     fetch_data_from =\
         s3['scheme']\
@@ -39,9 +37,6 @@ def download_from_s3_and_save(config=config,
 
     with requests.get(url=fetch_data_from) as obj:
         open(str(save_to_path/file_name), "wb").write(obj.content)
-
-#https://si-ds-challenge.s3.us-east-2.amazonaws.com/ates_pu.csv
-#https://si-ds-challenge.us-east-2.amazonaws.com/ates_pu.csv
 
 def download_reference_and_save(references=None):
     external_config = get_external_data_config(key="references")
