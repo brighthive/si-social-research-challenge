@@ -1,4 +1,4 @@
-import boto3
+import requests
 import progressbar
 from pathlib import Path
 from yaml import safe_load as load
@@ -8,15 +8,13 @@ with open("config.yaml") as obj:
 # todo: add nifty progress bar
 # see: https://stackoverflow.com/questions/41827963/track-download-progress-of-s3-file-using-boto3-and-callbacks
 
-s3 = boto3.client('s3', region_name="us-east-2")
-
 def get_bucket_name(config=config):
     return config['s3']['bucket']
 
 def get_external_data_config(key="external_data", config=config):
     return config[key]
 
-def download_from_s3_and_save(s3_obj=s3,
+def download_from_s3_and_save(config=config,
                               file_path="./data/external/",
                               file_name=None):
     file_name = Path(file_name)
@@ -26,9 +24,24 @@ def download_from_s3_and_save(s3_obj=s3,
         exist_ok=True
     )
 
-    s3.download_file(get_bucket_name(),
-                     str(file_name),
-                     str(save_to_path/file_name))
+    #https://si-ds-challenge.s3.us-east-2.amazonaws.com/2016_ATES_Derived_Variables_Note.pdf
+
+    s3 = config['s3']
+    fetch_data_from =\
+        s3['scheme']\
+        + '.'.join([s3['bucket'],
+                    s3['region'],
+                    s3['domain']])\
+        + "/"\
+        + str(file_name)
+
+    print("\t downloading from {}".format(fetch_data_from))
+
+    with requests.get(url=fetch_data_from) as obj:
+        open(str(save_to_path/file_name), "wb").write(obj.content)
+
+#https://si-ds-challenge.s3.us-east-2.amazonaws.com/ates_pu.csv
+#https://si-ds-challenge.us-east-2.amazonaws.com/ates_pu.csv
 
 def download_reference_and_save(references=None):
     external_config = get_external_data_config(key="references")

@@ -1,5 +1,8 @@
 s3:
-  bucket: si-ds-challenge
+  bucket: si-ds-challenge.s3
+  region: us-east-2
+  domain: amazonaws.com
+  scheme: https://
 external_data:
   adult_training_and_education: ates_pu.csv
 processed_data:
