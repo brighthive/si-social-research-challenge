@@ -50,7 +50,7 @@ The assignment is detailed in `./assignment/README.md` and may be viewed in your
 
 ## How to Submit the Assignment:
 In your repository add kwame@brighthive.io as a contributing member with at least read access. This lets us know that you are finished with the assignment.
-Please make your repository private so that others completing the same assignment can not peek at your hard earned analsysi.
+Please make your repository private so that others completing the same assignment can not peek at your hard earned analysis.
 Please follow up with a quick email to kwame@brighthive.io and indicate that you are finished with assignment.
 
 ## Next Steps:
